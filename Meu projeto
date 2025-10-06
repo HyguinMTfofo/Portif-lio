@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio — Hygor da Silva Ferreira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-svg" aria-hidden="true"></div>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">HF</div>
+        <div>
+          <h1>Hygor da Silva Ferreira</h1>
+          <p class="lead">Assistente de Manutenção — Em transição para Tecnologia</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#projetos">Projetos</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#educacao">Educação</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main class="grid">
+      <aside class="card sidebar">
+        <div class="photo">Foto</div>
+        <h3>Informações</h3>
+        <p><strong>Local:</strong> Brasil</p>
+        <p><strong>Email:</strong> <a href="mailto:hygor.ferreira@example.com">hygor.ferreira@example.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hygor-ferreira" target="_blank" rel="noopener">linkedin.com/in/hygor-ferreira</a></p>
+
+        <h4>Habilidades</h4>
+        <ul class="skills">
+          <li>Manutenção</li>
+          <li>Planejamento</li>
+          <li>Infraestrutura / Fibra Óptica</li>
+          <li>Suporte Técnico</li>
+          <li>Análise e Desenvolvimento (estudando)</li>
+        </ul>
+
+        <h4>Educação</h4>
+        <p><strong>Gestão Pública</strong> — Faculdade Projeção (2019)</p>
+        <p><strong>Análise e Desenvolvimento de Sistemas</strong> — Unidesc (cursando)</p>
+      </aside>
+
+      <section class="content">
+        <section id="sobre" class="card about">
+          <h2>Sobre mim</h2>
+          <p>Meu nome é Hygor da Silva Ferreira e atualmente atuo como Assistente de Manutenção na Quality Frotas. Minha trajetória é marcada por experiências diversas em organização, manutenção e suporte, áreas em que desenvolvi habilidades de planejamento, atenção aos detalhes e foco em resultados.</p>
+          <p>Atuei no planejamento e controle de manutenção na Auto Viação Marechal, como Técnico de Infraestrutura na FIXTELL (reparo de fibra óptica, lançamento de cabos e ativação de caixas) e como Técnico de Suporte na ONITEL.</p>
+          <p>Sou formado em Gestão Pública e curso Análise e Desenvolvimento de Sistemas. Busco unir minha experiência em gestão/manutenção à inovação tecnológica.</p>
+        </section>
+
+        <section id="experiencia" class="card">
+          <h2>Experiência</h2>
+          <div class="job">
+            <h3>Assistente de Manutenção — Quality Frotas</h3>
+            <p class="meta">Atuação atual — atividades de manutenção, planejamento e suporte.</p>
+          </div>
+          <div class="job">
+            <h3>Planejamento e Controle de Manutenção — Auto Viação Marechal</h3>
+            <p class="meta">Responsável por sinistros e gestão de pneus.</p>
+          </div>
+          <div class="job">
+            <h3>Técnico de Infraestrutura — FIXTELL</h3>
+            <p class="meta">Reparo de fibra óptica (fusão), lançamento de cabos e ativação de caixas.</p>
+          </div>
+          <div class="job">
+            <h3>Técnico de Suporte — ONITEL</h3>
+            <p class="meta">Apoio a equipes em campo e atendimento ao cliente.</p>
+          </div>
+        </section>
+
+        <section id="projetos" class="card projects">
+          <h2>Projetos em destaque</h2>
+          <div class="projects-grid" id="projectsGrid">
+            <!-- projetos serão inseridos via JS para demonstrar uso de JS -->
+          </div>
+        </section>
+
+        <section id="contato" class="card contact">
+          <h2>Contato</h2>
+          <form id="contactForm">
+            <div class="field"><input type="text" id="name" placeholder="Seu nome" required></div>
+            <div class="field"><input type="email" id="email" placeholder="Seu email" required></div>
+            <div class="field full"><textarea id="message" placeholder="Mensagem" required></textarea></div>
+            <div class="field full"><button type="submit" class="btn primary">Enviar</button></div>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small>© 2025 Hygor da Silva Ferreira — Feito com HTML, CSS e JS</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
