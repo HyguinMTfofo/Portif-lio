@@ -14,13 +14,12 @@
         <div class="logo">HF</div>
         <div>
           <h1>Hygor da Silva Ferreira</h1>
-          <p class="lead">Assistente de Manutenção — Em transição para Tecnologia</p>
+          <p class="lead">Analista de sinistro — Em transição para area de tecnologia</p>
         </div>
       </div>
       <nav class="nav">
         <a href="#projetos">Projetos</a>
         <a href="#experiencia">Experiência</a>
-        <a href="#educacao">Educação</a>
         <a href="#contato">Contato</a>
       </nav>
     </header>
@@ -30,16 +29,15 @@
         <div class="photo">Foto</div>
         <h3>Informações</h3>
         <p><strong>Local:</strong> Brasil</p>
-        <p><strong>Email:</strong> <a href="mailto:hygor.ferreira@example.com">hygor.ferreira@example.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:hygor.ferreira@example.com">hygor.ferreira0805@gmail.com</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hygor-ferreira" target="_blank" rel="noopener">linkedin.com/in/hygor-ferreira</a></p>
 
         <h4>Habilidades</h4>
         <ul class="skills">
-          <li>Manutenção</li>
           <li>Planejamento</li>
           <li>Infraestrutura / Fibra Óptica</li>
           <li>Suporte Técnico</li>
-          <li>Análise e Desenvolvimento (estudando)</li>
+          <li>Análise e Desenvolvimento (Cursando)</li>
         </ul>
 
         <h4>Educação</h4>
@@ -50,9 +48,9 @@
       <section class="content">
         <section id="sobre" class="card about">
           <h2>Sobre mim</h2>
-          <p>Meu nome é Hygor da Silva Ferreira e atualmente atuo como Assistente de Manutenção na Quality Frotas. Minha trajetória é marcada por experiências diversas em organização, manutenção e suporte, áreas em que desenvolvi habilidades de planejamento, atenção aos detalhes e foco em resultados.</p>
-          <p>Atuei no planejamento e controle de manutenção na Auto Viação Marechal, como Técnico de Infraestrutura na FIXTELL (reparo de fibra óptica, lançamento de cabos e ativação de caixas) e como Técnico de Suporte na ONITEL.</p>
-          <p>Sou formado em Gestão Pública e curso Análise e Desenvolvimento de Sistemas. Busco unir minha experiência em gestão/manutenção à inovação tecnológica.</p>
+          <p>Meu nome é Hygor da Silva Ferreira e atualmente atuo como analista de sinistro na Quality Frotas. Minha trajetória é marcada por experiências diversas em organização, manutenção e suporte, áreas em que desenvolvi habilidades de planejamento, atenção aos detalhes e foco em resultados.</p>
+          <p>Atuei no PCM da Auto Viação Marechal; como Técnico de Infraestrutura na FIXTELL (reparo de fibra óptica, lançamento de cabos e ativação de caixas) e como Técnico de Suporte na ONITEL.</p>
+          <p>Formado em Gestão Pública e atualmente cursando Análise e Desenvolvimento de Sistemas. Busco unificar minhas experiência em gestão/manutenção à inovação tecnológica.</p>
         </section>
 
         <section id="experiencia" class="card">
