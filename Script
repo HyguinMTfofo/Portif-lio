@@ -1,0 +1,22 @@
+// script.js - insere projetos dinamicamente (exemplo)
+const projects = [
+  {title: 'Portfólio Pessoal', desc: 'Site responsivo em HTML/CSS/JS para apresentação profissional.', tags:['HTML','CSS','JS']},
+  {title: 'Sistema de Controle de Manutenção', desc: 'Projeto para registro e controle de atividades de manutenção.', tags:['Gestão','Planejamento']},
+  {title: 'Mini Dashboard', desc: 'Interface para visualização de indicadores técnicos.', tags:['Design','Front-end']}
+];
+
+const grid = document.getElementById('projectsGrid');
+projects.forEach(p => {
+  const card = document.createElement('div');
+  card.className = 'project';
+  card.innerHTML = `<h4>${p.title}</h4><p>${p.desc}</p><div class="chips">${p.tags.map(t=>`<span class="chip">${t}</span>`).join('')}</div>`;
+  grid.appendChild(card);
+});
+
+// Contact form basic handler (no backend)
+document.getElementById('contactForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const name = document.getElementById('name').value.trim();
+  alert('Obrigado, ' + name + '! Sua mensagem foi recebida (simulação).');
+  this.reset();
+});
